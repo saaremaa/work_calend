@@ -1,0 +1,16 @@
+version: "3"
+services:
+    work_api:
+        image: krb/work_api:latest
+        container_name: "work_api"
+        build:
+            context: .
+            args:
+                UUID: 1000
+                UGID: 1000
+        logging:
+            driver: "journald"
+        ports: 
+            - 10100:2081
+        volumes:
+            - './data/:/home/docker/data'
