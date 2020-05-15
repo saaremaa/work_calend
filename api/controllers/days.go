@@ -4,7 +4,7 @@ import (
 	"net/http"
 
 	"github.com/labstack/echo"
-	"github.com/saaremaa/work-calend/models"
+	"github.com/saaremaa/work_calend/models"
 )
 
 // CheckDay - обработчик по точке входа "/api/v1/check_day/:date"

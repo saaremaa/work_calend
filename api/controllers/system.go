@@ -5,7 +5,7 @@ import (
 	"time"
 
 	"github.com/labstack/echo"
-	"github.com/saaremaa/work-calend/models"
+	"github.com/saaremaa/work_calend/models"
 )
 
 // Statistic cтруктура для статистических данных

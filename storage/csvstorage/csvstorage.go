@@ -8,8 +8,8 @@ import (
 	"regexp"
 	"strings"
 
-	"github.com/saaremaa/work-calend/config"
 	"github.com/sirupsen/logrus"
+	"github.com/saaremaa/work_calend/config"
 )
 
 // Storage структура описания хранилища

@@ -4,11 +4,11 @@ import (
 	"time"
 
 	"github.com/labstack/echo"
-	"github.com/saaremaa/work-calend/api/controllers"
-	"github.com/saaremaa/work-calend/config"
-	"github.com/saaremaa/work-calend/storage"
 	"github.com/sirupsen/logrus"
 	"github.com/tylerb/graceful"
+	"github.com/saaremaa/work_calend/api/controllers"
+	"github.com/saaremaa/work_calend/config"
+	"github.com/saaremaa/work_calend/storage"
 )
 
 type API struct {

@@ -6,3 +6,4 @@ lint:
 	golangci-lint run
 docker:
 	docker build -t workday:latest .
+

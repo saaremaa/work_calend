@@ -4,9 +4,9 @@ import (
 	"time"
 
 	"github.com/labstack/echo"
-	"github.com/saaremaa/work-calend/config"
-	"github.com/saaremaa/work-calend/storage"
 	"github.com/sirupsen/logrus"
+	"github.com/saaremaa/work_calend/config"
+	"github.com/saaremaa/work_calend/storage"
 )
 
 type Controllers struct {

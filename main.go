@@ -4,9 +4,9 @@ import (
 	"path/filepath"
 	"runtime"
 
-	"github.com/saaremaa/work-calend/app"
-	"github.com/saaremaa/work-calend/config"
 	"github.com/sirupsen/logrus"
+	"github.com/saaremaa/work_calend/app"
+	"github.com/saaremaa/work_calend/config"
 )
 
 func main() {

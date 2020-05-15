@@ -4,10 +4,10 @@ import (
 	"io"
 	"time"
 
-	"github.com/saaremaa/work-calend/api"
-	"github.com/saaremaa/work-calend/config"
-	"github.com/saaremaa/work-calend/storage"
 	"github.com/sirupsen/logrus"
+	"github.com/saaremaa/work_calend/api"
+	"github.com/saaremaa/work_calend/config"
+	"github.com/saaremaa/work_calend/storage"
 )
 
 // App это базовая структура со всей необходимой информацией о приложении.

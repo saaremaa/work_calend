@@ -3,9 +3,9 @@ package storage
 import (
 	"io"
 
-	"github.com/saaremaa/work-calend/config"
-	"github.com/saaremaa/work-calend/storage/csvstorage"
 	"github.com/sirupsen/logrus"
+	"github.com/saaremaa/work_calend/config"
+	"github.com/saaremaa/work_calend/storage/csvstorage"
 )
 
 type Storage struct {
